@@ -1,1 +1,26 @@
+# Ignora file oggetto e binari
+*.o
+*.a
+*.so
+*.exe
 *.out
+*.dSYM/
+
+# Ignora file di compilazione
+Makefile
+Makefile.inc
+
+# Ignora file temporanei creati dal compilatore
+*.dep
+*.d
+
+# Ignora directory di build
+build/
+bin/
+
+# Ignora i file di configurazione specifici dell'IDE
+.vscode/
+.idea/
+
+# Ignora file di log
+*.log
